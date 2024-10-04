@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+.barra-superior {
+    background-color: rgb(63, 81, 181); /* Color de la barra superior */
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.menu-cuadro {
+    display: flex;
+    flex-direction: column; /* Organiza los botones en columna */
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Color del cuadro */
+    padding: 40px; /* Padding del cuadro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del cuadro */
+    width: 500px; /* Aumenta el ancho del cuadro */
+}
+
+.boton-menu {
+    background-color: #007bff; /* Color de los botones */
+    color: white;
+    padding: 15px 20px; /* Padding de los botones */
+    margin: 10px 0; /* Separación entre botones */
+    border: none;
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Hacer los botones de ancho completo */
+}
+
+.boton-menu:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+/* Estilos del botón desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px; /* Separación del último botón */
+    width: 100%; /* Hacer el botón desplegable de ancho completo */
+}
+
+.dropbtn {
+    background-color: #007bff; /* Color del botón */
+    color: white;
+    padding: 15px 20px; /* Padding del botón desplegable */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Esquinas redondeadas */
+    width: 100%; /* Hacer el botón desplegable de ancho completo */
+}
+
+.dropbtn:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white; /* Color de fondo del menú desplegable */
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+.dropdown-content a {
+    color: black; /* Color de los enlaces */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Color al pasar el mouse sobre el enlace */
+}
+
+/* Mostrar el menú desplegable al hacer clic */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="PRACTICA/img/logouni.png">
+    <title>UNI | EARPFIM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header class="barra-superior">
+        <div class="boton-container">
+            <button class="boton-accion" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="nombre-docente">
+        </div>
+    </header>
+    <nav class="barra-menu" id="barra-menu">
+        <div class="barra-info">
+            <img src="PRACTICA/img/logouni.png" alt="Logo de UNI" class="logo"> 
+            <div class="info-text">
+                <h2>UNI EARPFIM</h2>
+                <p>DOCENTE</p>
+            </div>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="#" class="menu-item"><i class="fa-solid fa-briefcase"></i> General <i class="fa-solid fa-chevron-down arrow"></i></a>
+                <ul class="submenu">
+                    <li><a href="#"><i class="fas fa-laptop"></i> Aula virtual FIM</a></li>
+                    <li><a href="horario.html"><i class="fa-solid fa-calendar-days"></i> Mi horario de clases</a></li>
+                    <li><a href="info_docente.html"><i class="fas fa-info-circle"></i> Información Docente</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Mis cursos asignados</a></li>
+                    <li><a href="#"><i class="fas fa-user-graduate"></i> Tutoria Alumnos</a></li>
+                    <li><a href="Asistencia.html"><i class="fas fa-calendar-check"></i> Asistencia</a></li> <!-- Enlace a asistencia.html -->
+                    <li><a href="#"><i class="fas fa-upload"></i> Cargar Notas ORCE</a></li>
+                    <li><a href="#"><i class="fas fa-book-reader"></i> Biblioteca Virtual</a></li>
+                    <li><a href="#"><i class="fas fa-clock"></i> Mi Disponibilidad</a></li>
+                    <li><a href="#"><i class="fas fa-file-signature"></i> Reclamo del reclamo</a></li>
+                    <li><a href="#"><i class="fas fa-edit"></i> Corrección de notas</a></li>
+                    <li><a href="#"><i class="fas fa-chalkboard"></i> Ayuda en aula</a></li>
+                    <li><a href="#"><i class="fas fa-graduation-cap"></i> Aula virtual Titulación</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="menu-item"><i class="fa-solid fa-briefcase"></i> Administrador<i class="fa-solid fa-chevron-down arrow"></i></a>
+                <ul class="submenu">
+                    <li><a href="#">Servicio 1</a></li>
+                    <li><a href="#">Servicio 2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="menu-item"><i class="fa-solid fa-briefcase"></i> Acreditacion FIM<i class="fa-solid fa-chevron-down arrow"></i></a>
+                <ul class="submenu">
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Teléfono</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="menu-item"><i class="fa-solid fa-briefcase"></i> Virtual<i class="fa-solid fa-chevron-down arrow"></i></a>
+                <ul class="submenu">
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Teléfono</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="menu-item"><i class="fa-solid fa-briefcase"></i> Documentos Academicos<i class="fa-solid fa-chevron-down arrow"></i></a>
+                <ul class="submenu">
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Teléfono</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+    </nav>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistencia | UNI | EARPFIM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="estiloAsis.css"> <!-- Enlaza tu archivo CSS aquí -->
+</head>
+<body>
+    <main>
+        <h2>Bienvenido a la página de Asistencia</h2>
+        <p>Aquí podrás gestionar la asistencia de tus clases.</p>
+
+        <!-- Cuadro del menú -->
+        <div class="menu-cuadro">
+            <button class="boton-menu">Marcar mi asistencia Entrada/Salida</button>
+            <button class="boton-menu">Tomar asistencia alumnos</button>
+            <button class="boton-menu">solicitar recuperacion/justificacion</button>
+            <button class="boton-menu">puntual</button>
+            <button class="boton-menu">tardanza</button>
+            <button class="boton-menu">falta</button>
+            <button class="boton-menu">nn</button>
+            <button class="boton-menu">reporte</button>
+
+            <!-- Botón desplegable -->
+            <div class="dropdown">
+                <button class="dropbtn">Seleccionar Opción <i class="fa-solid fa-chevron-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Opción 1</a>
+                    <a href="#">Opción 2</a>
+                    <a href="#">Opción 3</a>
+                    <a href="#">Opción 4</a>
+                    <a href="#">Opción 5</a>
+                    <a href="#">Opción 6</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
