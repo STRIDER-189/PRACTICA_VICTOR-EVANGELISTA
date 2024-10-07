@@ -2,11 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh; /* Hace que el body ocupe toda la altura de la ventana */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
     background-color: #f4f4f4; /* Color de fondo */
 }
 
@@ -24,77 +23,118 @@ h2 {
 
 .menu-cuadro {
     display: flex;
-    flex-direction: column; /* Organiza los botones en columna */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: white; /* Color del cuadro */
-    padding: 40px; /* Padding del cuadro */
-    border-radius: 10px; /* Esquinas redondeadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del cuadro */
-    width: 500px; /* Aumenta el ancho del cuadro */
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px; /* Ancho del cuadro */
+    position: relative; /* Agregamos posición relativa */
+    margin-top: 40px; /* Añadir margen superior para moverlo hacia abajo */
 }
 
 .boton-menu {
-    background-color: #007bff; /* Color de los botones */
+    background-color: #007bff;
     color: white;
-    padding: 15px 20px; /* Padding de los botones */
-    margin: 10px 0; /* Separación entre botones */
+    padding: 15px 20px;
+    margin: 5px;
     border: none;
-    border-radius: 5px; /* Esquinas redondeadas */
+    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%; /* Hacer los botones de ancho completo */
+    width: 100%; /* Botones de ancho completo */
+    text-align: center; /* Texto centrado */
+}
+
+.boton-menu.large-button {
+    background-color: #28a745; /* Color verde para el botón grande */
+    width: 90%; /* Botón más ancho */
+    font-size: 18px; /* Texto más grande */
+    margin: 10px 0; /* Mayor separación vertical */
+}
+
+.boton-menu.orange-button {
+    background-color: #ff6f00; /* Botón naranja */
+    margin-top: 10px;
 }
 
 .boton-menu:hover {
-    background-color: #0056b3; /* Color al pasar el mouse */
+    background-color: #0056b3;
 }
 
 /* Estilos del botón desplegable */
 .dropdown {
-    position: relative;
-    display: inline-block;
-    margin-top: 10px; /* Separación del último botón */
-    width: 100%; /* Hacer el botón desplegable de ancho completo */
+    position: absolute; /* Cambiamos la posición a absoluta */
+    top: 10px; /* Posición en la parte superior del cuadro */
+    left: 10px; /* Posición en el lado izquierdo del cuadro */
+    width: auto; /* Ajustar el ancho según sea necesario */
 }
 
 .dropbtn {
-    background-color: #007bff; /* Color del botón */
-    color: white;
-    padding: 15px 20px; /* Padding del botón desplegable */
+    background-color: white; /* Color del botón blanco */
+    color: black; /* Texto negro */
+    padding: 15px 30px;
     font-size: 16px;
-    border: none;
+    border: 2px solid white; /* Borde azul */
     cursor: pointer;
-    border-radius: 5px; /* Esquinas redondeadas */
+    border-radius: 5px;
     width: 100%; /* Hacer el botón desplegable de ancho completo */
+    text-align: center;
 }
 
 .dropbtn:hover {
-    background-color: #0056b3; /* Color al pasar el mouse */
+    background-color: #f1f1f1;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white; /* Color de fondo del menú desplegable */
-    min-width: 160px;
+    background-color: white;
+    width: 100%; /* Ajustar al ancho del botón */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    border-radius: 5px; /* Esquinas redondeadas */
+    border-radius: 5px;
 }
 
 .dropdown-content a {
-    color: black; /* Color de los enlaces */
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    width: 100%; /* Asegura que ocupe todo el ancho */
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1; /* Color al pasar el mouse sobre el enlace */
+    background-color: #f1f1f1;
 }
 
 /* Mostrar el menú desplegable al hacer clic */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.report-button {
+    background-color: #007bff;
+    width: 90%; 
+    margin-top: 10px;
+}
+.menu-cuadro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    position: relative; /* Agregamos posición relativa */
 }
