@@ -1,12 +1,50 @@
 [
     {
-        "hour": "08:00 - 09:00",
-        "lunes": "",
-        "martes": "(35) MC510-C/D /VIRTUAL (T)",
-        "miercoles": "",
-        "jueves": "(25) BIC01-F /VIRTUAL (T)",
-        "viernes": "",
-        "sabado": "",
-        "domingo": ""
+        "id": 1,
+        "codCurso": "BIF01",
+        "nomCurso": "MATEMÁTICAS",
+        "secCurso": "C/D",
+        "codDocente": 87546374,
+        "docente": "NOMBRE DEL DOCENTE",
+        "teopra": "T/P",
+        "hora": "08:00 - 09:00",
+        "dia": "L",
+        "semestre": 20242
+    },
+    {
+        "id": 2,
+        "codCurso": "BIC01",
+        "nomCurso": "FÍSICA",
+        "secCurso": "A",
+        "codDocente": 87546374,
+        "docente": "NOMBRE DEL DOCENTE",
+        "teopra": "T/P",
+        "hora": "09:00 - 10:00",
+        "dia": "M",
+        "semestre": 20242
+    },
+    {
+        "id": 3,
+        "codCurso": "BIC02",
+        "nomCurso": "QUÍMICA",
+        "secCurso": "B",
+        "codDocente": 87546374,
+        "docente": "NOMBRE DEL DOCENTE",
+        "teopra": "T/P",
+        "hora": "10:00 - 11:00",
+        "dia": "MI",
+        "semestre": 20242
+    },
+    {
+        "id": 4,
+        "codCurso": "BIC03",
+        "nomCurso": "BIOLOGÍA",
+        "secCurso": "C",
+        "codDocente": 87546374,
+        "docente": "NOMBRE DEL DOCENTE",
+        "teopra": "T/P",
+        "hora": "11:00 - 12:00",
+        "dia": "J",
+        "semestre": 20242
     }
 ]
