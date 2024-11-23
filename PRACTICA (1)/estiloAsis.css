@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    background-color: #f4f4f4; /* Color dhe fondo */
+    background-color: #f4f4f4; /* Color de fondo */
 }
 
 .barra-superior {
