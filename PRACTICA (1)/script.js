@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.barra-superior').classList.toggle('menu-active');
     });
 
+    
     document.querySelectorAll('.menu-item').forEach(menuItem => {
         menuItem.addEventListener('click', (event) => {
             const submenu = menuItem.nextElementSibling;
