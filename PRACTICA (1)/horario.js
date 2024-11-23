@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scheduleData.forEach(course => {
                 classesByDay[course.dia].push(course);
             });
+            
 
             // Rellenar la tabla
             const hours = ["08:00 - 09:00", "09:00 - 10:00", "10:00 - 11:00", "11:00 - 12:00"]; // Ejemplo de horas
